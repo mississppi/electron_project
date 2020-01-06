@@ -1,0 +1,51 @@
+body{
+    width: 634px;
+    height: 400px;
+}
+
+/* * {
+margin: 0px;
+padding: 0px;
+} */
+
+body{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    background-color: #fafafa;
+    background-image: linear-gradient( transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06)), linear-gradient( 90deg, transparent 95%, rgba(0, 0, 0, .06) 50%, rgba(0, 0, 0, .06) );
+    background-size: 16px 16px;
+    background-repeat: repeat;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+/*
+    ターミナル表示用textareaタグ
+*/
+#mainArea {
+    /* width: 634px; */
+    /* height: 434px; */
+    /* padding:0 1em; */
+    /* background: linear-gradient(#ccc 1px, transparent 1px) #fffbf2;
+    background-size: auto 2.5em;
+    line-height: 2.5em;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    overflow: hidden; */
+}
+
+#taskDetailArea{
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px 30px 20px;
+}
+
+#task_detail{
+    width: 100%;
+    height: 100%;
+}
